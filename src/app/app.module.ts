@@ -15,6 +15,7 @@ import { LoginPage } from '../pages/login/login';
 import { MapPage } from '../pages/map/map';
 import { MenuPage } from '../pages/menu/menu';
 import { SearchPage } from '../pages/search/search';
+import { BookstoresPage } from '../pages/bookstores/bookstores';
 import { SettingsPage } from '../pages/settings/settings';
 import { SignupPage } from '../pages/signup/signup';
 import { TabsPage } from '../pages/tabs/tabs';
@@ -22,6 +23,7 @@ import { TutorialPage } from '../pages/tutorial/tutorial';
 import { WelcomePage } from '../pages/welcome/welcome';
 
 import { Api } from '../providers/api';
+import { BookstoresApi } from '../providers/bookstores-api.service';
 import { Items } from '../mocks/providers/items';
 import { Settings } from '../providers/settings';
 import { User } from '../providers/user';
@@ -67,6 +69,7 @@ export function provideSettings(storage: Storage) {
     MapPage,
     MenuPage,
     SearchPage,
+    BookstoresPage,
     SettingsPage,
     SignupPage,
     TabsPage,
@@ -98,6 +101,7 @@ export function provideSettings(storage: Storage) {
     MapPage,
     MenuPage,
     SearchPage,
+    BookstoresPage,
     SettingsPage,
     SignupPage,
     TabsPage,
@@ -108,6 +112,7 @@ export function provideSettings(storage: Storage) {
     Api,
     Items,
     User,
+    BookstoresApi,
     Camera,
     GoogleMaps,
     SplashScreen,

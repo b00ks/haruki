@@ -8,9 +8,10 @@
   "LOGIN": "Sign in",
   "SIGNUP": "Sign up",
 
-  "TAB1_TITLE": "Items",
-  "TAB2_TITLE": "Search",
-  "TAB3_TITLE": "Settings",
+  "TAB1_TITLE": "Home",
+  "TAB2_TITLE": "Books",
+  "TAB3_TITLE": "Bookstores",
+  "TAB4_TITLE": "Favorites",
 
   "MAP_TITLE": "Map",
 
@@ -64,5 +65,9 @@
   "CARDS_TITLE": "Social",
 
   "SEARCH_TITLE": "Search",
-  "SEARCH_PLACEHOLDER" : "Search the items list, e.g. \"Donald Duck\""
+  "SEARCH_PLACEHOLDER" : "Search the items list, e.g. \"Donald Duck\"",
+
+
+  "BOOKSTORES_TITLE":"Bookstores",
+  "BOOKSTORES_SEARCH_PLACEHOLDER" : "Search Bookstores around the world."
 }

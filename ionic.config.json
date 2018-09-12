@@ -1,5 +1,6 @@
 {
   "name": "haruki-app",
-  "app_id": "",
-  "type": "ionic-angular"
+  "integrations": {},
+  "type": "ionic-angular",
+  "pro_id": "0c3eedb5"
 }
